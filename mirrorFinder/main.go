@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ddefrancesco/handson-go/microservices/mirrors"
+	"github.com/ddefrancesco/handson-go/mirrorFinder/mirrors"
 )
 
 type response struct {
