@@ -1,8 +1,9 @@
 package main
 
 import (
-	"log"
 	"net/http"
+
+	"github.com/go-kit/kit/log"
 
 	httptransport "github.com/go-kit/kit/transport/http"
 )
