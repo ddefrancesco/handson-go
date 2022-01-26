@@ -14,14 +14,14 @@ type StringService interface {
 
 type stringService struct{}
 
-func (stringService) UpperCase(s string) (string, error) {
+func (g stringService) UpperCase(s string) (string, error) {
 	if s == "" {
 		return "", ErrEmpty
 	}
 	return strings.ToUpper(s), nil
 }
 
-func (stringService) Count(s string) int {
+func (g stringService) Count(s string) int {
 	return len(s)
 }
 
